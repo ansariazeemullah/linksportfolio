@@ -149,7 +149,8 @@ h2 {
 }
 
 footer {
-    background-color: #060625;
+    /* background-color: #060625; */
+    background-color: black;
 }
 
 
@@ -185,7 +186,7 @@ footer .footer-rights {
     color: #0949b9
 }
 
-.education h1{
+.education h1 {
     display: flex;
     margin-left: center;
     font-size: 2rem;
@@ -193,18 +194,29 @@ footer .footer-rights {
 
 }
 
-.education h3{
+.education h3 {
     margin-left: 55vh;
     height: 5vh;
 }
 
-.graduation h3{
+.graduation h3 {
     height: auto;
 }
 
-.certificate{
+.certificate {
     margin-left: 2px;
     margin: 5px;
     display: flex;
     font-size: 1.3rem;
+}
+
+.instagram {
+    margin-left: 7vh;
+    display: flex;
+    /* background-color: red; */
+}
+
+footer .footer-rights h3 {
+    display: flex;
+    margin-left: 4vh;
 }

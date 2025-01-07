@@ -149,7 +149,8 @@ h2 {
 }
 
 footer {
-    background-color: #060625;
+    /* background-color: #060625; */
+    background-color: black;
 }
 
 
@@ -219,3 +220,60 @@ footer .footer-rights h3 {
     display: flex;
     margin-left: 4vh;
 }
+
+/* Chat GPT */
+.footer-social-media {
+    text-align: center; /* Align icons to the center */
+    padding: 20px;
+    margin-right: 26%; /* Add space around the links */
+    /* background-color: #f8f9fa;  */
+    /* Optional: Light gray background */
+  }
+  
+  .footer-social-media a {
+    margin: 0 10px; /* Spacing between icons */
+    color: #555; /* Default icon color */
+    font-size: 24px; /* Icon size */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+    margin-left: 40%;
+  }
+  
+  .footer-social-media a:hover {
+    color: #007bff; /* Highlight color when hovering (blue in this case) */
+  }
+  
+  /* Styling for image or SVG logos */
+  .footer-social-media img,
+  .footer-social-media svg {
+    width: 24px; /* Icon width */
+    height: 24px; /* Icon height */
+    margin: 0 10px; /* Spacing between icons */
+    vertical-align: middle; /* Align images with text */
+    transition: transform 0.3s ease; /* Add zoom effect on hover */
+  }
+  
+  .footer-social-media a:hover img,
+  .footer-social-media a:hover svg {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+  /* Optional: Background styling for icons (circle effect) */
+  .footer-social-media a {
+    display: inline-block;
+    /* width: 40px;  */
+    /* Circle width */
+    height: 40px; /* Circle height */
+    border-radius: 50%; /* Make it circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef; /* Light background for the circle */
+  }
+  
+  .footer-social-media a:hover {
+    background-color: #007bff; /* Change background on hover */
+    color: #fff; /* Icon turns white on hover */
+  }
+
+  /* last */
